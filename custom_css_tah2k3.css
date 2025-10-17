@@ -1,0 +1,552 @@
+/*.owl-carousel .owl-item img.owl-lazy[src*=data]{*/
+/*    display: block;*/
+/*}*/
+.widget-service .owl-carousel .owl-item img {
+    width: 50px;
+    margin: 0 auto;
+}
+.product-view .product-item .wrap-two-lines .two-lines {
+  
+    color: #000;
+    margin-bottom: 5px;
+}
+.widget-newsletter .style-1 .wb-email-form button, .widget-newsletter .style-1 .wb-email-form input[type=submit] {
+    display: block;
+    width: 100%;
+    background: #ff0000;
+    border: 2px solid #ff0000;
+}
+@media (min-width: 992px) {
+    header .header-container .main-nav .mb-menu>li.dropdown.mega_menu_left .wb-header-menu-item>a {
+        padding: 9px 20px !important;
+}
+}
+.title_heading_style12 .page-content .box_heading .heading {
+    text-decoration: none;
+    color: #000;
+ 
+}
+.post-view .post-item .description {
+    overflow: hidden !important;
+    -webkit-line-clamp: 4 !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+}
+.fancybox-content {background: unset !important;}
+
+.fancybox-toolbar {
+right: 36% !important;
+top: 20% !important;
+}
+/*________________________________________________*/
+
+ins.new.color.edit_price_detail {
+  color: blue !important;
+}
+button.btn.btn--l.btn-primary.btn-order.wb-main-order.btn-item.buy_now {
+  color: black !important;
+}
+
+button.btn.btn-item.add-cart.add_to_cart {
+  color: black !important;
+}
+
+button.btn.btn-item.add-cart.add_to_cart {
+  color: black !important;       /* chữ màu đen */
+  border: 1px solid black !important; /* khung viền màu đen */
+}
+/*---------------*/
+.wb-main-header.d-none.d-lg-block {
+  background-color: #ffdb30 !important;
+}
+.header-top.no-pd-header {
+  background-color: #ffdb30 !important;
+}
+
+.btn.btn--m.btn-primary.btn-item {
+  color: black !important;
+}
+.wb-main-header.d-none.d-lg-block a {
+  color: black !important;
+}
+.fa.fa-shopping-basket,
+.title_cart_2 {
+  color: black !important;
+}
+
+input.search-box.ui-autocomplete-input {
+  border-radius: 999px !important;
+}
+/* Logo trong header desktop */
+.wb-main-header.d-none.d-lg-block img {
+  border-radius: 50% !important;
+  object-fit: cover;
+}
+
+.header-logo img {
+  border-radius: 50% !important; /* bo tròn hoàn toàn */
+  object-fit: cover;             /* giữ tỉ lệ ảnh */
+  max-width: 80px;               /* giới hạn kích thước nếu cần */
+  height: auto;
+}
+
+
+
+.topbar-right .menu-topbar li a {
+  background-color: #ffffff;   /* vàng nhạt */
+  border-radius: 30px;         /* bo tròn nhiều hơn */
+  padding: 8px 20px;           /* trên-dưới 8px, trái-phải 20px */
+  color: black;                /* chữ đen */
+  text-decoration: none;       /* bỏ gạch chân */
+  display: inline-block;       /* giữ hình dạng nút */
+  margin: 0 5px;               /* khoảng cách giữa các nút */
+}
+
+/* Tạo khoảng cách giữa các sản phẩm */
+.product-grid-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* khoảng cách ngang dọc giữa các ô */
+}
+.col-6 {
+  flex: 0 0 250px !important;   /* mỗi cột rộng 500px */
+  max-width: 250px !important;
+}
+
+
+/* Giữ viền và style cho item */
+.col-6 .product-item {
+  border: 1px solid #000 !important;
+  border-radius: 20px !important;
+  padding: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-6 .product-item .btn-item {
+  display: block;          /* chuyển nút thành block để chiếm full ngang */
+  width: 100%;             /* full ngang khung chứa */
+  box-sizing: border-box;  /* tính padding trong width */
+  margin-top: 10px;        /* cách nội dung phía trên */
+  text-align: center;      /* căn giữa icon + text */
+  border-radius: 8px;      /* bo góc cho hài hòa */
+}
+
+
+.col-6 .product-item .infor-product {
+  margin-top: 10px;
+  flex-grow: 1;                           /* nội dung giãn đều */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+/*-------11/9/2025--------*/
+.col-8 .checkbox-size .cross {
+  width: 25px !important;              /* rộng hơn */
+  height: 25px !important;             /* cao hơn */
+  border: 1px solid black !important;  /* viền đen */
+  border-radius: 6px !important;       /* bo nhẹ, hoặc 50% nếu muốn tròn */
+  display: inline-block !important;
+  background: #fff !important;
+  position: relative !important;
+}
+
+/* Dấu tích màu đen */
+.col-8 .checkbox-size.checked .cross::after {
+  content: "✔" !important;
+  color: black !important;
+  font-size: 22px !important;   /* to hơn cho cân khung */
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.btn-quick-mail-ph-img-circle.edit_btn_quick_ph_img_circle {
+  background-color: blue !important;   /* ruột màu xanh */
+  background-image: url('https://static.loveitopcdn.com/themes/base/images/icons/icon-zalo.svg') !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;   /* chỉnh kích thước icon Zalo */
+  border-radius: 50%;     /* giữ hình tròn */
+}
+
+.quick-alo-ph-img-circle.edit_btn_quick_ph_img_circle.icon-facebook {
+  background-color: #0084FF !important; /* nền xanh */
+  background-image: url('https://static.loveitopcdn.com/themes/base/images/icons/facebook-messenger.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: 60% !important;   /* icon nhỏ lại để thấy nền */
+  border-radius: 50% !important;     /* tròn hẳn */
+}
+
+.btn-quick-alo-ph-img-circle.edit_btn_quick_ph_img_circle {
+  background-color: green !important;   /* nền xanh lá */
+  background-image: url('https://static.loveitopcdn.com/themes/base/images/icons/phone-ico.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: 60% !important;      /* chỉnh kích thước icon */
+  border-radius: 50% !important;        /* bo tròn */
+}
+
+.widget-menu.style1 .nav-link {
+  color: #000 !important;   /* chữ màu đen */
+}
+
+.owl-stage img {
+  border-radius: 24px;
+}
+
+.content-widget {
+  border-radius: 20px;        /* bo góc, có thể chỉnh 8px, 12px, 20px... */
+  overflow: hidden;           /* ẩn phần con bị tràn ra ngoài */
+  border: 1px solid #ddd;     /* thêm viền nhạt nếu muốn nổi bật */
+  background: #fff;           /* nền trắng để rõ ràng hơn */
+  padding: 30px;              /* tạo khoảng cách trong */
+  
+  width: 100%; /* rộng đúng 500px */
+}
+
+
+
+.item-style img {
+    border-radius: 16px; /* Điều chỉnh giá trị theo mong muốn */
+    overflow: hidden; /* Đảm bảo ảnh không tràn ra ngoài góc bo */
+}
+/*-----------------------------------------*/
+/* CSS cho mục "Dây Cáp Sạc" và các phần tử cùng cấp */
+.mega-menu .popup .mega-col-left .nav-column .title-mega a {
+    color: blue !important;
+}
+/*--------12/9/2025--------*/
+/* Giá bán thực tế */
+.color-price.f-size-large.price strong.new {
+    color: #e60000 !important;  /* Đỏ tươi */
+    font-weight: 700;           /* Đậm cho nổi bật */
+}
+
+/* Giá gốc */
+.color-price.f-size-large.price .price-original {
+    color: #000 !important;     /* Đen */
+    text-decoration: line-through; /* Gạch ngang để rõ là giá cũ */
+    font-weight: 400;
+}
+
+.search-form input[type="submit"] {
+  width: 40px;
+  height: 40px;
+  background: url("https://cdn-icons-png.flaticon.com/512/622/622669.png") no-repeat center center;
+  background-size: 18px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/*---------------------------------------------*/
+/* Căn giữa toàn bộ widget */
+.widget-product_category {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*------------15:05-12/9/2025*/
+/* Mobile First Approach - Ưu tiên thiết kế cho mobile trước */
+
+/* Container chính */
+.content-widget {
+    width: 100%;
+    overflow: hidden;
+}
+
+.widget-content {
+    width: 100%;
+}
+
+.tab-content {
+    width: 100%;
+}
+/*---------------18/9/2025---------*/
+/* Tăng kích thước icon */
+.content-widget .item-service .icon {
+    width: 150px !important; /* hoặc kích thước bạn muốn */
+    height: 150px !important;
+    margin: 0 auto;
+}
+
+/* Đảm bảo hình ảnh fill toàn bộ icon */
+.content-widget .item-service .icon img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+}
+
+/* Điều chỉnh khoảng cách giữa icon và text nếu cần */
+.content-widget .item-service .info {
+    margin-top: 15px;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+    .content-widget .item-service .icon {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+/*-----------------24/9/2025----------------------------------------------------*/
+/* Footer-top ôm sát nội dung */
+.footer-top {
+    background: #ffdb30;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.footer-top .newsletter-section {
+    background: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.footer-top .container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+    width: fit-content;     /* chỉ rộng theo nội dung */
+}
+
+.footer-top .wb-inner-newsletter {
+    margin: 0 !important;
+    padding: 6px 10px !important; /* chút xíu khoảng cách */
+    align-items: center;
+}
+
+/* Thu nhỏ h2 */
+.footer-top .newsletter-title {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+}
+.footer-top .newsletter-title i {
+    margin-right: 6px;
+}
+
+/* Input + button gọn */
+.footer-top input[type="email"] {
+    height: 30px;
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.footer-top button {
+    height: 30px;
+    font-size: 13px;
+    padding: 4px 10px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+/*------*/
+/* Hàng ngang 3 cột */
+.wb-inner-newsletter {
+    display: flex;
+    justify-content: center;    /* căn giữa toàn bộ */
+    align-items: center;        /* căn giữa theo chiều cao */
+    gap: 30px;                  /* khoảng cách giữa tiêu đề và input+nút */
+    flex-wrap: nowrap;          /* không cho xuống hàng */
+    padding: 8px 0;             /* khoảng đệm trên dưới */
+}
+
+/* Tiêu đề (cột 1) */
+.wb-inner-newsletter .newsletter-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    line-height: 1.4;           /* thoáng hơn */
+    white-space: nowrap;
+}
+.wb-inner-newsletter .newsletter-title i {
+    margin-right: 8px;          /* icon cách chữ hơn chút */
+    font-size: 16px;
+    color: red;
+}
+
+/* Nhóm input + nút */
+.wb-inner-newsletter form.wb-email-form {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+/* Ô input */
+.wb-inner-newsletter input[type="email"] {
+    height: 36px;               /* cao hơn 1 chút */
+    padding: 6px 12px;          /* thêm đệm trong */
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+/* Nút gửi */
+.wb-inner-newsletter button {
+    height: 36px;               /* cùng chiều cao input */
+    padding: 0 16px;            /* thêm rộng */
+    font-size: 13px;
+    font-family: "Times New Roman", serif;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wb-inner-newsletter button:hover {
+    background: #c00;
+}
+/*--------------------------------------------*/
+.blog-item.product-grid-view {
+    border: 1px solid #ddd;        /* viền mảnh cho đẹp */
+    border-radius: 30px;           /* bo góc */
+    overflow: hidden;              /* nội dung không tràn ra ngoài */
+    background: #fff;              /* nền trắng */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* đổ bóng nhẹ */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-item.product-grid-view:hover {
+    transform: translateY(-3px);   /* nổi lên nhẹ khi hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+/*---------------------------------------*/
+.blog-item.product-grid-view figure.photoframe {
+    border: 1px solid #000;      /* viền đen mảnh */
+    border-radius: 20px;          /* bo góc (tùy chỉnh 6px, 10px...) */
+    overflow: hidden;            /* ảnh bên trong không tràn ra ngoài */
+    margin: 0;                   /* bỏ margin mặc định */
+    padding: 0;                  /* bỏ padding nếu có */
+    display: block;
+}
+/*------------------------------------------------------*/
+/* Khung bao ngoài blog item */
+.blog-item.product-grid-view {
+    padding: 15px;               /* khoảng cách bên trong */
+    margin-bottom: 20px;         /* tách với phần tử dưới */
+    border-radius: 20px;         /* bo góc nhẹ cho toàn khung */
+    background: #fff;            /* nền trắng để tách biệt */
+}
+
+/* Các item bên trong */
+.blog-item.product-grid-view .item {
+    padding: 10px;               /* khoảng cách giữa photoframe và viền ngoài */
+}
+
+/* Figure chứa hình + viền đen bo góc */
+.blog-item.product-grid-view figure.photoframe {
+    border: 1.5px solid #000;    /* viền đen mảnh nhưng rõ nét */
+    border-radius: 12px;         /* bo góc (tùy chỉnh 6px, 8px, 12px...) */
+    overflow: hidden;            /* ảnh không tràn ra ngoài */
+    margin: 0;                   /* bỏ margin mặc định */
+    padding: 0;                  /* không thêm padding */
+    display: block;
+    background: #fff;            /* nền trắng trong khung */
+}
+/*------------------------------------------------------*/
+/* Trạng thái bình thường */
+.blog-item.product-grid-view .item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Khi hover vào item */
+.blog-item.product-grid-view .item:hover {
+    transform: translateY(-8px) scale(1.02);   /* nổi lên + phóng to nhẹ */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* đổ bóng mềm */
+}
+
+/* Figure hover đổi viền màu */
+.blog-item.product-grid-view figure.photoframe {
+    border: 1.5px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Khi hover đổi màu viền */
+.blog-item.product-grid-view .item:hover figure.photoframe {
+    border-color: #ff6600;   /* đổi viền sang cam (tùy chỉnh) */
+    box-shadow: 0 0 12px rgba(255, 102, 0, 0.3);
+}
+
+/*------------------------------------*/
+/* Bao ảnh */
+.blog-item.product-grid-view .img-product {
+    overflow: hidden; /* ẩn phần ảnh bị tràn */
+    border-radius: 12px; /* bo góc đồng bộ với figure */
+}
+
+/* Ảnh mặc định */
+.blog-item.product-grid-view .img-product img {
+    transition: transform 0.4s ease;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Khi hover vào figure → ảnh phóng to nhẹ */
+.blog-item.product-grid-view figure.photoframe:hover .img-product img {
+    transform: scale(1.08); /* phóng to 8% */
+}
+
+/*----------------------------------------------*/
+/* --------------------------- */
+/* Responsive cho mobile */
+/* --------------------------- */
+
+/* Khi ở màn hình nhỏ hơn 768px (mobile, tablet) */
+@media (max-width: 767px) {
+    /* Không nên phóng to item quá nhiều trên mobile */
+    .blog-item.product-grid-view .item:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    /* Thay vào đó áp dụng khi người dùng chạm (active) */
+    .blog-item.product-grid-view .item:active {
+        transform: scale(0.98); /* ấn xuống nhẹ */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Ảnh khi chạm sẽ zoom một chút */
+    .blog-item.product-grid-view figure.photoframe:active .img-product img {
+        transform: scale(1.05);
+    }
+}
+
+.blog-item.post-list-view a[href] {
+    color: blue !important;
+}
+/* Liên kết trong mục lục */
+#toc a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Khi hover đổi sang màu đỏ */
+#toc a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
