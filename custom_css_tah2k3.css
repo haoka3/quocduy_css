@@ -548,5 +548,27 @@ input.search-box.ui-autocomplete-input {
   color: red;
   text-decoration: underline;
 }
+/*------------------------------------------------*/
+.header-logo a::after {
+    content: "QUỐC DUY MOBILE";
+    /* chữ hiển thị */
+    color: black;
+    /* màu chữ */
+    font-size: 18px;
+    /* cỡ chữ lớn hơn chút */
+    font-weight: bold;
+    /* in đậm */
+    font-style: italic;
+    /* in nghiêng */
+    margin-left: 10px;
+    /* cách logo 10px */
+    vertical-align: middle;
+    /* căn giữa so với logo */
+    font-family: "Georgia", "Times New Roman", serif;
+    /* font đặc sắc */
+    letter-spacing: 1px;
+    /* giãn nhẹ chữ cho sang */
+    display: inline-block;
+}
 
 
